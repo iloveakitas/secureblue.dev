@@ -85,6 +85,35 @@ This is a relative recommendation between the desktop environments available on 
 
 </div>
 
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Base</th>
+        <th>NVIDIA Support</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>`silverblue-main-hardened`</td>
+        <td>`silverblue-nvidia-hardened`</td>
+        <td>`silverblue-nvidia-open-hardened`</td>
+      </tr>
+      <tr>
+        <td>Silverblue</td>
+        <td>Silverblue</td>
+        <td>Silverblue</td>
+      </tr>
+      <tr>
+        <td>No</td>
+        <td>Yes, closed drivers</td>
+        <td>Yes, open drivers</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 #### Kinoite (KDE Plasma)
 
 <div class="table-wrapper">
