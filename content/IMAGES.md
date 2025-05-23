@@ -96,18 +96,18 @@ This is a relative recommendation between the desktop environments available on 
     </thead>
     <tbody>
       <tr>
-        <td>`silverblue-main-hardened`</td>
-        <td>`silverblue-nvidia-hardened`</td>
-        <td>`silverblue-nvidia-open-hardened`</td>
-      </tr>
-      <tr>
+        <td><code class="language-plaintext highlighter-rouge">silverblue-main-hardened</code></td>
         <td>Silverblue</td>
-        <td>Silverblue</td>
-        <td>Silverblue</td>
-      </tr>
-      <tr>
         <td>No</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">silverblue-nvidia-hardened</code></td>
+        <td>Silverblue</td>
         <td>Yes, closed drivers</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">silverblue-nvidia-open-hardened</code></td>
+        <td>Silverblue</td>
         <td>Yes, open drivers</td>
       </tr>
     </tbody>
