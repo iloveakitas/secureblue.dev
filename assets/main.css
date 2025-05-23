@@ -287,13 +287,13 @@ table {
     max-width: 100%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 848px) {
     .table-wrapper {
         overflow: hidden;
     }
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 847px) {
     .table-wrapper {
         overflow: scroll hidden;
     }
