@@ -285,7 +285,18 @@ table {
 
 .table-wrapper {
     max-width: 100%;
-    overflow-x: scroll;
+}
+
+@media only screen and (min-width: 800px) {
+    .table-wrapper {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .table-wrapper {
+        overflow: scroll hidden;
+    }
 }
 
 td {
