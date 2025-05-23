@@ -76,16 +76,6 @@ This is a relative recommendation between the desktop environments available on 
 #### Silverblue (GNOME)
 
 <div class="table-wrapper">
-
-| Name                                      | Base      | NVIDIA Support          |
-|-------------------------------------------|-----------|-------------------------|
-| `silverblue-main-hardened`                | Silverblue| No                      |
-| `silverblue-nvidia-hardened`              | Silverblue| Yes, closed drivers     |
-| `silverblue-nvidia-open-hardened`         | Silverblue| Yes, open drivers       |
-
-</div>
-
-<div class="table-wrapper">
   <table>
     <thead>
       <tr>
@@ -117,25 +107,63 @@ This is a relative recommendation between the desktop environments available on 
 #### Kinoite (KDE Plasma)
 
 <div class="table-wrapper">
-
-| Name                                      | Base      | NVIDIA Support          |
-|-------------------------------------------|-----------|-------------------------|
-| `kinoite-main-hardened`                   | Kinoite   | No                      |
-| `kinoite-nvidia-hardened`                 | Kinoite   | Yes, closed drivers     |
-| `kinoite-nvidia-open-hardened`            | Kinoite   | Yes, open drivers       |
-
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Base</th>
+        <th>NVIDIA Support</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">kinoite-main-hardened</code></td>
+        <td>Kinoite</td>
+        <td>No</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">kinoite-nvidia-hardened</code></td>
+        <td>Kinoite</td>
+        <td>Yes, closed drivers</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">kinoite-nvidia-open-hardened</code></td>
+        <td>Kinoite</td>
+        <td>Yes, open drivers</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 #### Sericea (Sway)
 
 <div class="table-wrapper">
-
-| Name                                      | Base      | NVIDIA Support          |
-|-------------------------------------------|-----------|-------------------------|
-| `sericea-main-hardened`                   | Sericea   | No                      |
-| `sericea-nvidia-hardened`                 | Sericea   | Yes, closed drivers     |
-| `sericea-nvidia-open-hardened`            | Sericea   | Yes, open drivers       |
-
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Base</th>
+        <th>NVIDIA Support</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">sericea-main-hardened</code></td>
+        <td>Sericea</td>
+        <td>No</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">sericea-nvidia-hardened</code></td>
+        <td>Sericea</td>
+        <td>Yes, closed drivers</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">sericea-nvidia-open-hardened</code></td>
+        <td>Sericea</td>
+        <td>Yes, open drivers</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ### [Experimental](#experimental)
@@ -143,13 +171,32 @@ This is a relative recommendation between the desktop environments available on 
 #### COSMIC
 
 <div class="table-wrapper">
-
-| Name                                      | Base                  | NVIDIA Support          |
-|-------------------------------------------|-----------------------|-------------------------|
-| `cosmic-main-hardened`                    | COSMIC                | No                      |
-| `cosmic-nvidia-hardened`                  | COSMIC                | Yes, closed drivers     |
-| `cosmic-nvidia-open-hardened`             | COSMIC                | Yes, open drivers       |
-
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Base</th>
+        <th>NVIDIA Support</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">cosmic-main-hardened</code></td>
+        <td>COSMIC</td>
+        <td>No</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">cosmic-nvidia-hardened</code></td>
+        <td>COSMIC</td>
+        <td>Yes, closed drivers</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">cosmic-nvidia-open-hardened</code></td>
+        <td>COSMIC</td>
+        <td>Yes, open drivers</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## [Server](#server)
@@ -157,14 +204,52 @@ This is a relative recommendation between the desktop environments available on 
 {% include alert.html type='note' content='After you finish setting up your <a href="https://fedoraproject.org/coreos/">Fedora CoreOS</a> installation, you will need to disable <code>zincati.service</code> before rebasing to securecore.' %}
 
 <div class="table-wrapper">
-
-| Name                                      | Base      | NVIDIA Support          | ZFS Support |
-|-------------------------------------------|-----------|-------------------------|-------------|
-| `securecore-main-hardened`                | CoreOS    | No                      | No          |
-| `securecore-nvidia-hardened`              | CoreOS    | Yes, closed drivers     | No          |
-| `securecore-nvidia-open-hardened`         | CoreOS    | Yes, open drivers       | No          |
-| `securecore-zfs-main-hardened`            | CoreOS    | No                      | Yes         |
-| `securecore-zfs-nvidia-hardened`          | CoreOS    | Yes, closed drivers     | Yes         |
-| `securecore-zfs-nvidia-open-hardened`     | CoreOS    | Yes, open drivers       | Yes         |
-
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Base</th>
+        <th>NVIDIA Support</th>
+        <th>ZFS Support</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">securecore-main-hardened</code></td>
+        <td>CoreOS</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">securecore-nvidia-hardened</code></td>
+        <td>CoreOS</td>
+        <td>Yes, closed drivers</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">securecore-nvidia-open-hardened</code></td>
+        <td>CoreOS</td>
+        <td>Yes, open drivers</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">securecore-zfs-main-hardened</code></td>
+        <td>CoreOS</td>
+        <td>No</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+      <td><code class="language-plaintext highlighter-rouge">securecore-zfs-nvidia-hardened</code></td>
+        <td>CoreOS</td>
+        <td>Yes, closed drivers</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">securecore-zfs-nvidia-open-hardened</code></td>
+        <td>CoreOS</td>
+        <td>Yes, open drivers</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
