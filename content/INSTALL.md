@@ -154,7 +154,7 @@ You can use our [example.butane](https://github.com/secureblue/secureblue/blob/l
   - [Flatpak Permissions Tuning](#flatpak-permissions-tuning)
   - [Trivalent Flags](#trivalent-flags)
 
-#### [Essential](#essential)
+### [Essential](#essential)
 {: #essential}
 
 #### [Subscribe to secureblue release notifications](#release-notifications)
@@ -189,7 +189,7 @@ ujust audit-secureblue
 Lots of important stuff is covered in the [FAQ](/faq). If you're having an issue, it's probably covered there already. AppImage toggles, GNOME extension toggles, Xwayland toggles, etc.
 
 
-#### [Recommended](#recommended)
+### [Recommended](#recommended)
 {: #recommended}
 
 #### [Kernel argument tuning](#kargs)
