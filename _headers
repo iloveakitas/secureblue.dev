@@ -16,4 +16,4 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-  Content-Security-Policy: default-src 'none'; object-src 'self'; frame-src 'self'; style-src 'self' 'sha256-PRZzpo83EM3Qg7UpSujAuXPgZ/IYIajFx5kVtnLlapQ='; style-src-attr 'none'; font-src 'self'; img-src 'self' https://avatars.githubusercontent.com; manifest-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'none'; sandbox allow-popups-to-escape-sandbox allow-popups; upgrade-insecure-requests;
+  Content-Security-Policy: default-src 'none'; object-src 'self'; frame-src 'self'; style-src 'self' 'sha256-lrNehaQY++mHdke0pg51YXrdHEOI7ekKGqSX7aRJleQ='; style-src-attr 'none'; font-src 'self'; img-src 'self' https://avatars.githubusercontent.com; manifest-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'none'; sandbox allow-popups-to-escape-sandbox allow-popups; upgrade-insecure-requests;
