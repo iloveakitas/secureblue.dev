@@ -11,41 +11,43 @@ Secureblue is a volunteer project with an open development process. We have a co
 
 ## [RoyalOughtness](https://github.com/RoyalOughtness/)
 
-Secureblue development, infrastructure, and maintenance
+- Secureblue development, infrastructure, and maintenance
 
 ## [RKNF404](https://github.com/RKNF404/)
 
-Trivalent development
+- Trivalent development
 
 ## [HastD](https://github.com/HastD/)
 
-[run0edit](https://github.com/HastD/run0edit) development
-Auditor development
+- [run0edit](https://github.com/HastD/run0edit) development
+- Auditor development
 
 ## [EsseLowNitro](https://github.com/EsseLowNitro)
 
-Website development
-Graphic design
+- Website development
+- Graphic design
 
 ## [spaceoden](https://github.com/spaceoden)
 
-User experience development
+- User experience development
 
 ## [ShadowSlayer1441](https://github.com/ShadowSlayer1441)
 
-Tooling development
+- Tooling development
 
 ## [pxlkng](https://github.com/pxlkng)
 
-Tooling development
+- Tooling development
 
 ## [WavyEbuilder](https://github.com/WavyEbuilder)
 
-SELinux consulting
+- SELinux consulting
 
- Thanks to all our contributors:
 
 <div class="contributors-svg-wrapper">
+
+Thanks to all our contributors!
+
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1360">
 <style>.name{font:14px sans-serif;fill:#333;text-anchor:middle;cursor:pointer;text-decoration:none}</style>
 <a href="https://github.com/RoyalOughtness" target="_blank"><image x="40.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/129108030?v=4" /></a>
