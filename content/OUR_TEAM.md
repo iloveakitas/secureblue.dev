@@ -44,7 +44,7 @@ Secureblue is a volunteer project with an open development process. We have a co
 - SELinux consulting
 
 <div class="contributors-svg-wrapper">
-## Thanks to all our contributors!
+  <h2>Thanks to all our contributors!</h2>
 </div>
 
 <div class="contributors-svg-wrapper">
