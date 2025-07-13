@@ -35,11 +35,11 @@ Secureblue is a volunteer project with an open development process. We have a co
 
  - Tooling development
 
- ## [pxlkng](https://github.com/pxlkng)
+## [pxlkng](https://github.com/pxlkng)
 
  - Tooling development
 
- ## [WavyEbuilder](https://github.com/WavyEbuilder)
+## [WavyEbuilder](https://github.com/WavyEbuilder)
 
  - SELinux consulting
 
