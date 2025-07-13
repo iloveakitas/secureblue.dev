@@ -65,7 +65,7 @@ Secureblue is a volunteer project with an open development process. We have a co
     }
   }
   svg a text {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 </style>
 <a href="https://github.com/RoyalOughtness" target="_blank"><image x="40.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/129108030?v=4" /></a>
