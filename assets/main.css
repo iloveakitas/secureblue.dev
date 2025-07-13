@@ -582,3 +582,9 @@ th {
         color: #dae2f9 /* on secondary container */;
     }
 }
+
+.contributors-svg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -45,8 +45,9 @@ Secureblue is a volunteer project with an open development process. We have a co
 
  Thanks to all our contributors:
 
+<div class="contributors-svg-wrapper">
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1360">
-<style>.name{font:14px sans-serif;fill:#333;text-anchor:middle;cursor:pointer}</style>
+<style>.name{font:14px sans-serif;fill:#333;text-anchor:middle;cursor:pointer;text-decoration:none}</style>
 <a href="https://github.com/RoyalOughtness" target="_blank"><image x="40.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/129108030?v=4" /></a>
 <a href="https://github.com/RoyalOughtness" target="_blank"><text x="80.0" y="118" class="name">RoyalOughtness</text></a>
 <a href="https://github.com/RKNF404" target="_blank"><image x="160.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/175176948?v=4" /></a>
@@ -154,3 +155,4 @@ Secureblue is a volunteer project with an open development process. We have a co
 <a href="https://github.com/celenityy" target="_blank"><image x="280.0" y="1220" width="80" height="80" href="https://avatars.githubusercontent.com/u/132830388?v=4" /></a>
 <a href="https://github.com/celenityy" target="_blank"><text x="320.0" y="1318" class="name">celenityy</text></a>
 </svg>
+</div>
