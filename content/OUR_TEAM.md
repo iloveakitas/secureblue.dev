@@ -48,6 +48,8 @@ Secureblue is a volunteer project with an open development process. We have a co
 
 Thanks to all our contributors!
 
+<br />
+
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1360">
 <style>
   .name {
