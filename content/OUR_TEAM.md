@@ -49,7 +49,22 @@ Secureblue is a volunteer project with an open development process. We have a co
 Thanks to all our contributors!
 
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1360">
-<style>.name{font:14px sans-serif;fill:#333;text-anchor:middle;cursor:pointer;text-decoration:none}</style>
+<style>
+  .name {
+    font: 14px sans-serif;
+    font-family: Roboto, sans-serif;
+    color: #241f31;
+    fill: #333;
+    text-anchor: middle;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    .name {
+      fill: rgba(255 255 255 / 0.87);
+    }
+  }
+</style>
 <a href="https://github.com/RoyalOughtness" target="_blank"><image x="40.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/129108030?v=4" /></a>
 <a href="https://github.com/RoyalOughtness" target="_blank"><text x="80.0" y="118" class="name">RoyalOughtness</text></a>
 <a href="https://github.com/RKNF404" target="_blank"><image x="160.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/175176948?v=4" /></a>
