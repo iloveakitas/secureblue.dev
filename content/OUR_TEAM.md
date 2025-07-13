@@ -69,7 +69,7 @@ Secureblue is a volunteer project with an open development process. We have a co
   }
 </style>
 <a href="https://github.com/RoyalOughtness" target="_blank"><image x="40.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/129108030?v=4" /></a>
-<a href="https://github.com/RoyalOughtness" target="_blank"><text x="80.0" y="118" class="name">RoyalOughtness</text></a>
+<a href="https://github.com/RoyalOughtness" target="_blank" class="name"><text x="80.0" y="118" class="name">RoyalOughtness</text></a>
 <a href="https://github.com/RKNF404" target="_blank"><image x="160.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/175176948?v=4" /></a>
 <a href="https://github.com/RKNF404" target="_blank"><text x="200.0" y="118" class="name">RKNF404</text></a>
 <a href="https://github.com/EsseLowNitro" target="_blank"><image x="280.0" y="20" width="80" height="80" href="https://avatars.githubusercontent.com/u/103858681?v=4" /></a>
