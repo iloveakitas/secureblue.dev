@@ -43,13 +43,9 @@ Secureblue is a volunteer project with an open development process. We have a co
 
 - SELinux consulting
 
-
-<div class="contributors-svg-wrapper">
-
 Thanks to all our contributors!
 
-<br />
-
+<div class="contributors-svg-wrapper">
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1360">
 <style>
   .name {
