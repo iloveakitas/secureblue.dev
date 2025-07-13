@@ -15,7 +15,7 @@ Secureblue is a volunteer project with an open development process. We have a co
 
 ## [RKNF404](https://github.com/RKNF404/)
 
-- Trivalent development
+- [Trivalent](https://github.com/secureblue/Trivalent) development
 
 ## [HastD](https://github.com/HastD/)
 
