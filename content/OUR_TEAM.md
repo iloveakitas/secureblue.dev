@@ -57,7 +57,7 @@ Secureblue is a volunteer project with an open development process. We have a co
     fill: #333;
     text-anchor: middle;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   @media (prefers-color-scheme: dark) {
     .name {
