@@ -45,4 +45,4 @@ Secureblue is a volunteer project with an open development process. We have a co
 
  Thanks to all our contributors:
 
- <img alt="Contributors grid" src="/assets/contributors.svg" />
+<object type="image/svg+xml" data="/assets/contributors.svg"></object>
