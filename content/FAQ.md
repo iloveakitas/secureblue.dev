@@ -14,6 +14,7 @@ permalink: /faq
 - [Is secureblue immutable?](#immutable)
 - [Why not upstream your changes?](#upstream)
 - [Is this an install script?](#script)
+- [How does secureblue compare to Qubes OS?](#qubes)
 - [How do I update the system?](#update)
 - [Why is Flatpak included? Should I use Flatpak?](#flatpak)
 - [Should I use Electron apps? Why don't they work well with hardened_malloc?](#electron)
@@ -79,6 +80,13 @@ When possible, we do upstream our changes. In particular, we have contributed se
 {: #script}
 
 No. When you run our installer, you are *fully replacing* the system (excluding your homedir). secureblue is not an install script, nor an add-on to a Fedora installation, nor a distro in the traditional sense. It is a set of [bootable container](https://github.com/containers/bootc) images shipped via GitHub's container registry. These images are rebuilt daily and pushed to GitHub's container registry. These images are then pulled in by `rpm-ostree`, which stages updates as a pending deployment for the next boot. To view information about your current local deployments and remotes, run `rpm-ostree status`.
+
+### [How does secureblue compare to Qubes OS?](#qubes)
+{: #qubes}
+
+The two projects differ first and foremost because Qubes OS is not a Linux operating system, and necessitates at least one distinct operating system the user wishes to virtualize in order to be useful. It is possible to run secureblue in a qube, as an example. This alone sets the two operating systems apart by having different goals. Even though Linux's KVM is a type-1 hypervisor like Qubes OS' Xen is (meaning in practice host concerns are separated from the hypervisor and guest systems, even in the case of KVM on Linux which is often misconstrued as "less minimal"), Qubes OS brings features to aid in sharing resources between different isolated qubes, if the user wishes to configure so.
+
+Aside from that, the only meaningful way to compare the security of a Linux OS like secureblue to Qubes OS is by their virtualization security, and not by comparing secureblue running in bare metal to anything running in a qube. Xen is not a particularly security-focused project, and [KVM has been largely proven formally correct](https://www.computer.org/csdl/proceedings-article/sp/2021/893400a839/1t0x8ICrxwQ).
 
 ### [How do I update the system?](#update)
 {: #update}
